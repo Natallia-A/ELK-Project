@@ -5,9 +5,9 @@
     import_role:
       name: prerequisites
 
-  # - name: Install cert
-  #   import_role:
-  #     name: geerlingguy.certbot
+  - name: Install cert
+    import_role:
+      name: geerlingguy.certbot
 
   - name: Disable SELinux
     selinux:
