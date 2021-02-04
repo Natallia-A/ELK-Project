@@ -18,6 +18,9 @@
 ## The ELK - is a combination of three  open source  tools which forms a log management tool/platform , that helps in deep searching , analyzing ,  visualizing the log generated from different machines .
 
 
+![name-of-you-image](https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2017/11/ELK.png)
+
+
 ## purpose of Elk :
 ## ELK provides centralized logging that be useful when attempting to identify problems with servers or applications. It allows you to search all your logs in a single place. It also helps to find issues that occur in multiple servers by connecting their logs during a specific time frame. 
 
@@ -36,9 +39,6 @@
 * NoSQL database i. e. can not use SQL for queries 
 * Provides horizontal  scalability , reliability  and  multinant  capability  for real time search
 * Uses indexes  to search  which make it   faster
-
-
-
 
 
 
@@ -66,6 +66,8 @@
 
 ## View the sample Kibana dashboard
 
+![name-of-you-image](https://balagetech.com/wp-content/uploads/2019/02/fail2ban-discovery-kibana-1-1250.png)
+
 
 
 
@@ -86,6 +88,21 @@ On the Discover page, make sure that the predefined filebeat-* index pattern
 
 *  inputs  -  is responsible for managing the harvesters and finding all sources to read from.If the input type is log, the input finds all files on the drive that match the defined glob paths and starts a harvester for each file. Each input runs in its own Go routine.
 *  harvesters  -  is responsible for reading the content of a single file. The harvester reads each file, line by line, and sends the content to the output. 
+
+
+![name-of-you-image](https://hackernoon.com/hn-images/1*D-GjP7Uo1DKDT_Qd307I2g.jpeg)
+
+
+## Other competing tools available in the market :
+* Splunk
+*  LogDNA
+* Loggy
+* Sumo Logic
+
+
+
+
+![name-of-you-image](https://static.packt-cdn.com/products/9781789804034/graphics/73f258eb-2280-41c8-9b06-7dde9b83b52c.jpg)
 
 
 ## Asible - ELK
@@ -122,5 +139,5 @@ On the Discover page, make sure that the predefined filebeat-* index pattern
 * Uses OpenJDK for Java
 *  It's fairly quick, takes around 3minutes on a test VM
 	 
-     fyfjf
+    
 
