@@ -90,6 +90,11 @@ On the Discover page, make sure that the predefined filebeat-* index pattern
 *  harvesters  -  is responsible for reading the content of a single file. The harvester reads each file, line by line, and sends the content to the output. 
 
 
+
+
+
+
+
 ![name-of-you-image](https://hackernoon.com/hn-images/1*D-GjP7Uo1DKDT_Qd307I2g.jpeg)
 
 
@@ -101,7 +106,7 @@ On the Discover page, make sure that the predefined filebeat-* index pattern
 
 
 
-
+## How ELK Stack works ?
 ![name-of-you-image](https://static.packt-cdn.com/products/9781789804034/graphics/73f258eb-2280-41c8-9b06-7dde9b83b52c.jpg)
 
 
